@@ -1,0 +1,259 @@
+---
+title: "Uso di ChatGPT"
+subtitle: "Toolkit di Alfabetizzazione Digitale<br>Dipartimento di Scienze Cardio-Toraco-Vascolari e Sanità Pubblica<br>Unità di Biostatistica, Epidemiologia e Sanità Pubblica<br>Laboratorio di Intelligenza Artificiale per le Scienze Mediche"
+author: "**Corrado Lanera** ([corrado.lanera@ubep.unipd.it](mailto:corrado.lanera@ubep.unipd.it))<br><br>Università degli studi di Padova<br>2024/2025"
+format:
+  revealjs:
+    width:  1648 #(3/2)
+    height: 1080
+history: false
+preview-links: auto
+code-link: true
+slide-number: true
+controls: true
+embed-resources: true
+footer: "ChatGPT può commettere errori. Considera di verificare le informazioni importanti."
+---
+
+# Video 1: Introduzione a ChatGPT
+
+::: notes
+Benvenuti a questo primo video su ChatGPT.
+
+In questi brevi video vedremo:
+
+-   che cos'è questa tecnologia
+
+-   come poter accedervi
+
+-   come usarla efficacemente per aiutarci o divertirci in vari ambiti
+
+-   quali sono alcune delle principali alternative (interne ed esterne)
+
+Lo scopo sarà volutamente introduttivo per chiunque non sia un addetto ai lavori, molto di quello che diremo sarà approssimato e incompleto, ma lo scopo è proprio quello di introdurre questa tecnologia a chi non la conosce, in modo semplice e sufficiente per permettergli di approfondire. Quindi, se sai già più o meno bene cos'è ChatGPT, questi video non sono per te.
+:::
+
+## Cos'è ChatGPT?
+
+::: notes
+Ma entriamo subito nel cuore della questione, e invece che spiegarvi io che cosa sia ChatGPT... perché non chiedere direttamente a lui?
+
+*ChatGPT è un programma creato per conversare con le persone, proprio come un essere umano, ma in realtà è un'intelligenza artificiale. È in grado di rispondere a domande, spiegare argomenti, dare consigli e aiutare con tante altre cose, tutto tramite testo. Funziona analizzando il linguaggio che gli viene scritto e generando risposte appropriate. Può essere utile per imparare cose nuove, risolvere problemi, o semplicemente per fare due chiacchiere!*
+:::
+
+::: tip
+**Prompt:** "Spiega in parole semplici cos'è ChatGPT."
+:::
+
+## Definizione
+
+-   Cos'è un modello di linguaggio?
+
+-   GPT (Generative Pretrained Transformer)
+
+::: notes
+Cerchiamo ora, sempre con parole semplici di capire cos'è un modello di linguaggio e cosa significhi"GPT". Poi vediamo come questi concetti si uniscano per creare ChatGPT.
+:::
+
+::: tip
+**Prompt:** "Sempre in parole semplici, spiega cos'è un modello di linguaggio."
+
+**Prompt:** "Cosa significa, semplicemente, GPT?"
+:::
+
+## Transformer
+
+![https://jalammar.github.io/illustrated-transformer/](img/transformer_decoding_2.gif){fig-align="center"}
+
+## Chat(GPT)
+
+![](img/llm-prompt.png){fig-align="center"}
+
+## Potenzialità di ChatGPT
+
+::: tip
+**Prompt:** "Mostrami tre esempi pratici di uso di ChatGPT nella vita quotidiana."
+
+**Prompt:** "Mostrami tre esempi pratici di uso di ChatGPT nella vita professionale."
+:::
+
+![](img/LLM-use-cases.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+# Video 2: Rispondere a domande con ChatGPT
+
+::: notes
+In questo video vediamo come usare ChatGPT per:
+
+-   porre domande
+-   risolvere problemi di tutti i giorno
+-   funzione web per le fonti
+:::
+
+## Formulare domande generiche
+
+-   Si può tranquillamente porre domande generiche... ma otteniamo risposte generiche!
+
+::: tip
+**Prompt:** "Come preparao una crostata di mele?"
+:::
+
+## Risolvere problemi specifici e passo-passo
+
+Basta chiedere... bene!
+
+-   Definizione chiara del problema
+-   Chiedere passaggi intermedi
+
+::: tip
+**prompt:** "Aiutami a organizzare un viaggio di una settimana in Scozia"
+
+**Prompt (+ web):** "Voglio visitare la Scozia per una settimana e sto cercando un itinerario che mi permetta di esplorare le principali attrazioni turistiche, godermi la natura e scoprire la cultura locale. Ho un interesse particolare per i castelli, i paesaggi montuosi e i laghi. Non voglio che l'itinerario sia troppo frenetico, quindi preferisco avere del tempo libero ogni giorno per rilassarmi e magari fare qualche passeggiata. Posso partire da Edimburgo, ma vorrei visitare anche altre città e luoghi iconici della Scozia come il Loch Ness, l'Isola di Skye e la zona delle Highlands. Puoi aiutarmi a creare un piano dettagliato per ogni giorno, con suggerimenti per i trasporti, le principali attrazioni da visitare, le opzioni per il pranzo e la cena, e i posti dove pernottare? Cerco anche attività all'aria aperta, come trekking o passeggiate nei parchi, ma senza stressarmi troppo. Inoltre, vorrei un po' di tempo per esplorare i piccoli villaggi locali e immergermi nella cultura scozzese"
+
+**Prompt:** Spiega, passo-passo, il procedimento di estrazione manuale della radice quadrata di un numero, con un esempio numerico.
+:::
+
+------------------------------------------------------------------------
+
+# Video 3: Scrivere con ChatGPT
+
+::: notes
+In questo video vediamo come usare ChatGPT per tradurre, riassumere e scrivere testi, dalle email formali ai riassunti di articoli.
+:::
+
+## Scrittura personale e professionale
+
+-   Lettere formali, email professionali
+-   Traduzione
+-   Riassunti
+-   Contenuti
+
+> Registrando un piano (anche gratuito) si possono caricare file
+
+::: tip
+**Prompt:** Scrivi un'e-mail formale all'amministratore di condominio per segnalare un problema con l'ascensore.
+
+**Prompt:** Riassumi in un paio di paragrafi, in italiano, il contenuto del pdf allegato.
+
+-   Inquinamento dell'aria e malattie cardiovascolari: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&id=3526
+
+-   Alimentazione sana: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?id=2915
+
+-   GPT4.5: https://www.salute.gov.it/portale/documentazione/p6_2_2.jsp?lingua=italiano
+
+**Prompt:** Scrivi un breve programma per una serie di video introduttivi (5-7 minuti) su ChatGPT e le sue potenzialità.
+:::
+
+## Tecniche avanzate
+
+-   Ottenere varianti dello stesso testo
+-   Ragionamento (base e Deep Research)
+
+> Registrando un piano (anche gratuito) si può attivare anche il "ragionamento"
+
+::: tip
+**Prompt:** Scrivi tre opzioni di testo per un biglietto di auguri di compleanno per mio cugino di 10 anni.
+
+**Prompt (+ web + ragionamento):** "Voglio visitare la Scozia per una settimana e sto cercando un itinerario che mi permetta di esplorare le principali attrazioni turistiche, godermi la natura e scoprire la cultura locale. Ho un interesse particolare per i castelli, i paesaggi montuosi e i laghi. Non voglio che l'itinerario sia troppo frenetico, quindi preferisco avere del tempo libero ogni giorno per rilassarmi e magari fare qualche passeggiata. Posso partire da Edimburgo, ma vorrei visitare anche altre città e luoghi iconici della Scozia come il Loch Ness, l'Isola di Skye e la zona delle Highlands. Puoi aiutarmi a creare un piano dettagliato per ogni giorno, con suggerimenti per i trasporti, le principali attrazioni da visitare, le opzioni per il pranzo e la cena, e i posti dove pernottare? Cerco anche attività all'aria aperta, come trekking o passeggiate nei parchi, ma senza stressarmi troppo. Inoltre, vorrei un po' di tempo per esplorare i piccoli villaggi locali e immergermi nella cultura scozzese"
+:::
+
+------------------------------------------------------------------------
+
+# Video 4: Formulare domande efficaci
+
+::: notes
+In questo video vediamo come migliorare la qualità delle risposte attraverso domande precise.
+:::
+
+## Domande chiare e specifiche
+
+-   "Chi è"?
+-   Contesto e dettagli?
+-   Compito?
+-   Tipo e "formato" della risposta?
+-   (Stile)
+-   (Esempi)
+
+> Nota: se si attiva il "ragionamento" non serve indicare come eseguire il compito (es. "spiega passo-passo").
+
+::: tip
+**Prompt (base):** "Cosa mangiava il T-Rex?" **Prompt (migliore):** "Sei uno specialista di paleontologia coinvolto in un progetto di ricerca sulle abitudini alimentari dei dinosauri. In particolare, lo studio si concentra sul T-Rex, e sulle peculiarità della sua dieta. Il tuo compito è quello di fornire un elenco di alimenti che il T-Rex mangiava abitualmente, con particolare attenzione alla quantità e alla frequenza di consumo di ciascun alimento. Fornisci la risposta in formato tabellare, dedicando una colonna alle fonti. Infine riassumi in forma discorsiva (uno, massimo due paragrafi) i risultati. Aggiungi uno slogan divertente per concludere che sia accattivante per un bambino di 10 anni."
+:::
+
+------------------------------------------------------------------------
+
+# Video 5: I modelli OpenAI: differenze e scelta
+
+::: notes
+Introduzione ai vari modelli disponibili di ChatGPT e consigli pratici per la scelta.
+:::
+
+## Principali modelli OpenAI disponibili (inizio 2025)
+
+-   "Diretti" (versatili, "intelligenti" e veloci):
+    -   GPT-4o: comprensione di immagini o contenuti multilingue.
+    -   GPT-4o-mini: qualità ed efficienza, uso quotidiano e "veloce"
+    -   GPT-4.5: accurato e naturale nelle conversazioni, scrittura creativa o problem solving generale
+-   "Ragionamento" (compiti complessi e con più passaggi):
+    -   GPT-o1: logica rigorosa, ampio bagaglio di conoscenze generali e analisi approfondita
+    -   GPT-o3-mini: (sorpassa GPT-o1-mini, disponibile nel piano gratuito) ragionamenti e risoluzioni di problemi tecnici (STEM) complessi senza necessitare di un ampio bagaglio di conoscenze generali.
+    -   Deep Research: (da 5 a 30 minuti di ragionamento per avere una risposta) indagini complesse in un dominio specifico con significativi livelli di profondità e dettagli (la differenza tra un rapido riassunto e una risposta ben documentata e verificata che può essere direttamente utilizzata).
+
+> https://openai.com/chatgpt/pricing/
+
+::: notes
+Breve descrizione di ciascun modello e dei relativi casi d'uso.
+:::
+
+## Alternative principali a ChatGPT
+
+-   Microsoft: Copilot (https://copilot.microsoft.com)
+-   Anthropic: Calude (https://claude.ai)
+-   Google: Gemini (https://gemini.google.com)
+-   xAI: Grok (https://x.ai/grok - Non ancora in Europa come app web; su X: https://x.com/i/grok)
+-   DeepSeek: deepseek (https://chat.deepseek.com)
+-   Perplexity AI: Perplexity (https://www.perplexity.ai)
+-   Google: NotebookLM (https://notebooklm.google.com)
+
+::: tip
+**Prompt:** "Consapevole che non ne so nulla, dimmi la cosa più importante che secondo te devo sapere oggi sull'intelligenza artificiale e questo mondo dei modelli di linguaggio e chatbot."
+:::
+
+::: notes
+Panoramica dei principali competitor di ChatGPT, caratteristiche distintive e applicazioni.
+:::
+
+------------------------------------------------------------------------
+
+# Video 6: Suggerimenti e accortezze
+
+## Suggerimenti per l'uso
+
+-   Usalo per divertirti e imparare
+-   Usalo per iniziare una ricerca da approfondire
+-   Usalo per abbozzare idee e progetti
+-   Usalo per ottenere punti di vista differenti
+-   ...
+
+> ma **USALO!** Imparare a usare questa tecnologia è un investimento (anche gratis) inevitabile, al pari del saper usare la corrente elettrica
+
+> -   Usalo per fare meglio quello che sai già fare bene, oppure per divertirti o iniziare a informarti su quello che non conosci o ti incuriosisce... o anche solo per fare due chiacchiere senza pretese!
+>
+> -   Non usarlo per fare cose che non sai fare, o per ottenre informazioni importanti che non puoi/vuoi verificare con effetti concreti sul mondo reale.
+
+## I (miei personali) "quattro quadranti"
+
+| Competenza     \\     IA | Ignaro | Utilizzatore |
+|---------------|---------------------------|---------------------------|
+| **Inesperto** | Semplicemente, si rifà e chiede a terzi. Non fa danni, ma non ha vantaggi (in un ambiente in cui tutti gli altri ne hanno molti) | Ciarlatano smascherato (si brucia da solo); potrebbe far danni prima di bruciarsi (comunque, andrà a estinguersi) |
+| **Esperto** | O molto di nicchia e con **molta** esperienza, o spazzato via (senza capirne il perchè, e considerandolo inaccettabile) | Fornitore di tutti i prodotti: scarsi, normali e di alta qualità (a seconda del mercato di riferimento); e anche "truffe di qualità"... |
+
+> **Nota scoraggiante**: una pessima strategia è usare l'intelligenza artificiale per fare/offrire prodotti/informazioni su cui non si ha competenza. Il punto è che, in caso di errore (e IA sbaglia, magari poco ma di continuo!), noi per primi non ce ne accorgeremmo, non essendo competenti!
+
+> **Nota incoraggiante**: un'eccellente strategia è usare l'intelligenza artificiale per imparare a usare l'intelligenza artificiale per migliorare nel proprio ambito di interesse/esperienza.
+
+
+## 
+
+![](img/thankyou-robot.jpg){fig-align="center"}
